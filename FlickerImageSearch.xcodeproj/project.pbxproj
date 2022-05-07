@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2397EF046820CCE0B159701D /* Pods_FlickerImageSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7E81F883D987DD93682D5E /* Pods_FlickerImageSearch.framework */; };
+		B820AEEE0176507D5896D454 /* Pods_FlickerImageSearch_FlickerImageSearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1BE118B363003484B5D74C /* Pods_FlickerImageSearch_FlickerImageSearchUITests.framework */; };
 		BC99CC052825A2C800AEA12A /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC042825A2C800AEA12A /* ErrorHandler.swift */; };
 		BC99CC062825A2CA00AEA12A /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC042825A2C800AEA12A /* ErrorHandler.swift */; };
 		BC99CC082825A31000AEA12A /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC072825A31000AEA12A /* HTTPStatusCode.swift */; };
@@ -42,6 +44,7 @@
 		BCBA4A1D2825985B00D3A2E9 /* NetworkBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA4A1B2825985B00D3A2E9 /* NetworkBody.swift */; };
 		BCBA4A23282599F500D3A2E9 /* NetworkEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA4A22282599F500D3A2E9 /* NetworkEnvironment.swift */; };
 		BCBA4A24282599F500D3A2E9 /* NetworkEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA4A22282599F500D3A2E9 /* NetworkEnvironment.swift */; };
+		ECBE6BE28B2238828D21FBC6 /* Pods_FlickerImageSearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39B018DEB82BB7BB300BDCE /* Pods_FlickerImageSearchTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C1B269445BB449C9A771DD4 /* Pods-FlickerImageSearch-FlickerImageSearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickerImageSearch-FlickerImageSearchUITests.release.xcconfig"; path = "Target Support Files/Pods-FlickerImageSearch-FlickerImageSearchUITests/Pods-FlickerImageSearch-FlickerImageSearchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1E7E81F883D987DD93682D5E /* Pods_FlickerImageSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlickerImageSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67933F4F479E1F680E59C920 /* Pods-FlickerImageSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickerImageSearchTests.debug.xcconfig"; path = "Target Support Files/Pods-FlickerImageSearchTests/Pods-FlickerImageSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		71398656FC7DABED60E7687E /* Pods-FlickerImageSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickerImageSearch.release.xcconfig"; path = "Target Support Files/Pods-FlickerImageSearch/Pods-FlickerImageSearch.release.xcconfig"; sourceTree = "<group>"; };
+		9D1BE118B363003484B5D74C /* Pods_FlickerImageSearch_FlickerImageSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlickerImageSearch_FlickerImageSearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE3F55129B2C20B21EB5430 /* Pods-FlickerImageSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickerImageSearchTests.release.xcconfig"; path = "Target Support Files/Pods-FlickerImageSearchTests/Pods-FlickerImageSearchTests.release.xcconfig"; sourceTree = "<group>"; };
 		BC99CC042825A2C800AEA12A /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 		BC99CC072825A31000AEA12A /* HTTPStatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
 		BC99CC0A2825A4BD00AEA12A /* NetworkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
@@ -88,6 +97,9 @@
 		BCBA4A182825977100D3A2E9 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		BCBA4A1B2825985B00D3A2E9 /* NetworkBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkBody.swift; sourceTree = "<group>"; };
 		BCBA4A22282599F500D3A2E9 /* NetworkEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEnvironment.swift; sourceTree = "<group>"; };
+		C39B018DEB82BB7BB300BDCE /* Pods_FlickerImageSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlickerImageSearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF1F8A9B6002DC177248EF7 /* Pods-FlickerImageSearch-FlickerImageSearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickerImageSearch-FlickerImageSearchUITests.debug.xcconfig"; path = "Target Support Files/Pods-FlickerImageSearch-FlickerImageSearchUITests/Pods-FlickerImageSearch-FlickerImageSearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9AE1C1112B5A2C4FB0563BF /* Pods-FlickerImageSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickerImageSearch.debug.xcconfig"; path = "Target Support Files/Pods-FlickerImageSearch/Pods-FlickerImageSearch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2397EF046820CCE0B159701D /* Pods_FlickerImageSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECBE6BE28B2238828D21FBC6 /* Pods_FlickerImageSearchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,12 +123,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B820AEEE0176507D5896D454 /* Pods_FlickerImageSearch_FlickerImageSearchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42FEDC58B8C0E8711C9A432C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9AE1C1112B5A2C4FB0563BF /* Pods-FlickerImageSearch.debug.xcconfig */,
+				71398656FC7DABED60E7687E /* Pods-FlickerImageSearch.release.xcconfig */,
+				DCF1F8A9B6002DC177248EF7 /* Pods-FlickerImageSearch-FlickerImageSearchUITests.debug.xcconfig */,
+				1C1B269445BB449C9A771DD4 /* Pods-FlickerImageSearch-FlickerImageSearchUITests.release.xcconfig */,
+				67933F4F479E1F680E59C920 /* Pods-FlickerImageSearchTests.debug.xcconfig */,
+				AAE3F55129B2C20B21EB5430 /* Pods-FlickerImageSearchTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BC99CC2628268EF500AEA12A /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +193,8 @@
 				BCBA49FB2825937F00D3A2E9 /* FlickerImageSearchTests */,
 				BCBA4A052825937F00D3A2E9 /* FlickerImageSearchUITests */,
 				BCBA49E32825937D00D3A2E9 /* Products */,
+				42FEDC58B8C0E8711C9A432C /* Pods */,
+				FEFF683D2C38D7003E44333B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -227,6 +257,16 @@
 			path = NetworkManager;
 			sourceTree = "<group>";
 		};
+		FEFF683D2C38D7003E44333B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E7E81F883D987DD93682D5E /* Pods_FlickerImageSearch.framework */,
+				9D1BE118B363003484B5D74C /* Pods_FlickerImageSearch_FlickerImageSearchUITests.framework */,
+				C39B018DEB82BB7BB300BDCE /* Pods_FlickerImageSearchTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -234,9 +274,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCBA4A0C2825937F00D3A2E9 /* Build configuration list for PBXNativeTarget "FlickerImageSearch" */;
 			buildPhases = (
+				12AF64141EA5DB9E2AA0E77A /* [CP] Check Pods Manifest.lock */,
 				BCBA49DE2825937D00D3A2E9 /* Sources */,
 				BCBA49DF2825937D00D3A2E9 /* Frameworks */,
 				BCBA49E02825937D00D3A2E9 /* Resources */,
+				4B9B0B9B7F6AA07B57EE3413 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,6 +293,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCBA4A0F2825937F00D3A2E9 /* Build configuration list for PBXNativeTarget "FlickerImageSearchTests" */;
 			buildPhases = (
+				71629D0E9D26A2ACD2C597C9 /* [CP] Check Pods Manifest.lock */,
 				BCBA49F42825937F00D3A2E9 /* Sources */,
 				BCBA49F52825937F00D3A2E9 /* Frameworks */,
 				BCBA49F62825937F00D3A2E9 /* Resources */,
@@ -269,9 +312,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCBA4A122825937F00D3A2E9 /* Build configuration list for PBXNativeTarget "FlickerImageSearchUITests" */;
 			buildPhases = (
+				BF8DB9CB48B59ED15CD7072B /* [CP] Check Pods Manifest.lock */,
 				BCBA49FE2825937F00D3A2E9 /* Sources */,
 				BCBA49FF2825937F00D3A2E9 /* Frameworks */,
 				BCBA4A002825937F00D3A2E9 /* Resources */,
+				AA2B6C6F487769D29F2BA014 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -352,6 +397,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12AF64141EA5DB9E2AA0E77A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlickerImageSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B9B0B9B7F6AA07B57EE3413 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlickerImageSearch/Pods-FlickerImageSearch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlickerImageSearch/Pods-FlickerImageSearch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlickerImageSearch/Pods-FlickerImageSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71629D0E9D26A2ACD2C597C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlickerImageSearchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA2B6C6F487769D29F2BA014 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlickerImageSearch-FlickerImageSearchUITests/Pods-FlickerImageSearch-FlickerImageSearchUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlickerImageSearch-FlickerImageSearchUITests/Pods-FlickerImageSearch-FlickerImageSearchUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlickerImageSearch-FlickerImageSearchUITests/Pods-FlickerImageSearch-FlickerImageSearchUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF8DB9CB48B59ED15CD7072B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlickerImageSearch-FlickerImageSearchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BCBA49DE2825937D00D3A2E9 /* Sources */ = {
@@ -493,7 +641,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -548,7 +696,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -560,6 +708,7 @@
 		};
 		BCBA4A0D2825937F00D3A2E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9AE1C1112B5A2C4FB0563BF /* Pods-FlickerImageSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -570,8 +719,11 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -587,6 +739,7 @@
 		};
 		BCBA4A0E2825937F00D3A2E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71398656FC7DABED60E7687E /* Pods-FlickerImageSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -597,8 +750,11 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -614,6 +770,7 @@
 		};
 		BCBA4A102825937F00D3A2E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67933F4F479E1F680E59C920 /* Pods-FlickerImageSearchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -633,6 +790,7 @@
 		};
 		BCBA4A112825937F00D3A2E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE3F55129B2C20B21EB5430 /* Pods-FlickerImageSearchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -652,6 +810,7 @@
 		};
 		BCBA4A132825937F00D3A2E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCF1F8A9B6002DC177248EF7 /* Pods-FlickerImageSearch-FlickerImageSearchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -669,6 +828,7 @@
 		};
 		BCBA4A142825937F00D3A2E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1B269445BB449C9A771DD4 /* Pods-FlickerImageSearch-FlickerImageSearchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

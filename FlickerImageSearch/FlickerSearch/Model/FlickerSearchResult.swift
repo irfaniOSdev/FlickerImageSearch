@@ -34,9 +34,4 @@ struct FlickrPhoto: Codable {
     let secret : String
     let server : String
     let title: String
-    
-    var imageURL: String {
-        let urlString = String(format: Constant.imageURL, farm, server, id, secret)
-        return urlString
-    }
 }

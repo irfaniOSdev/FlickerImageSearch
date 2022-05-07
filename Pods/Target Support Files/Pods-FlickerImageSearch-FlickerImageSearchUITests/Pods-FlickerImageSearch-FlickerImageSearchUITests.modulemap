@@ -1,0 +1,6 @@
+framework module Pods_FlickerImageSearch_FlickerImageSearchUITests {
+  umbrella header "Pods-FlickerImageSearch-FlickerImageSearchUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
