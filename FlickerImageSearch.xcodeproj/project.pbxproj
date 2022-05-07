@@ -18,6 +18,14 @@
 		BC99CC2128268D7C00AEA12A /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC1F28268D7C00AEA12A /* NetworkLogger.swift */; };
 		BC99CC2828268EF500AEA12A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC2728268EF500AEA12A /* Extensions.swift */; };
 		BC99CC2928268EF500AEA12A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC2728268EF500AEA12A /* Extensions.swift */; };
+		BC99CC3028268FD200AEA12A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC2B28268FD200AEA12A /* Constant.swift */; };
+		BC99CC3128268FD200AEA12A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC2B28268FD200AEA12A /* Constant.swift */; };
+		BC99CC3228268FD200AEA12A /* FlickerSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC2D28268FD200AEA12A /* FlickerSearchResult.swift */; };
+		BC99CC3328268FD200AEA12A /* FlickerSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC2D28268FD200AEA12A /* FlickerSearchResult.swift */; };
+		BC99CC3428268FD200AEA12A /* ImageSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC2F28268FD200AEA12A /* ImageSearchService.swift */; };
+		BC99CC3528268FD200AEA12A /* ImageSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC2F28268FD200AEA12A /* ImageSearchService.swift */; };
+		BC99CC382826997700AEA12A /* FlickerSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC372826997700AEA12A /* FlickerSearchViewModel.swift */; };
+		BC99CC392826997700AEA12A /* FlickerSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC372826997700AEA12A /* FlickerSearchViewModel.swift */; };
 		BCBA49E62825937D00D3A2E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA49E52825937D00D3A2E9 /* AppDelegate.swift */; };
 		BCBA49E82825937D00D3A2E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA49E72825937D00D3A2E9 /* SceneDelegate.swift */; };
 		BCBA49EA2825937D00D3A2E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA49E92825937D00D3A2E9 /* ViewController.swift */; };
@@ -59,6 +67,10 @@
 		BC99CC0A2825A4BD00AEA12A /* NetworkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
 		BC99CC1F28268D7C00AEA12A /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
 		BC99CC2728268EF500AEA12A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BC99CC2B28268FD200AEA12A /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		BC99CC2D28268FD200AEA12A /* FlickerSearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickerSearchResult.swift; sourceTree = "<group>"; };
+		BC99CC2F28268FD200AEA12A /* ImageSearchService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchService.swift; sourceTree = "<group>"; };
+		BC99CC372826997700AEA12A /* FlickerSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerSearchViewModel.swift; sourceTree = "<group>"; };
 		BCBA49E22825937D00D3A2E9 /* FlickerImageSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickerImageSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCBA49E52825937D00D3A2E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCBA49E72825937D00D3A2E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +123,41 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		BC99CC2A28268FD200AEA12A /* FlickerSearch */ = {
+			isa = PBXGroup;
+			children = (
+				BC99CC362826996000AEA12A /* ViewModel */,
+				BC99CC2B28268FD200AEA12A /* Constant.swift */,
+				BC99CC2C28268FD200AEA12A /* Model */,
+				BC99CC2E28268FD200AEA12A /* Service */,
+			);
+			path = FlickerSearch;
+			sourceTree = "<group>";
+		};
+		BC99CC2C28268FD200AEA12A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC99CC2D28268FD200AEA12A /* FlickerSearchResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC99CC2E28268FD200AEA12A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BC99CC2F28268FD200AEA12A /* ImageSearchService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BC99CC362826996000AEA12A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BC99CC372826997700AEA12A /* FlickerSearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		BCBA49D92825937D00D3A2E9 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +181,7 @@
 		BCBA49E42825937D00D3A2E9 /* FlickerImageSearch */ = {
 			isa = PBXGroup;
 			children = (
+				BC99CC2A28268FD200AEA12A /* FlickerSearch */,
 				BC99CC2628268EF500AEA12A /* Utilities */,
 				BCBA4A152825952500D3A2E9 /* NetworkManager */,
 				BCBA49E52825937D00D3A2E9 /* AppDelegate.swift */,
@@ -319,9 +367,13 @@
 				BC99CC052825A2C800AEA12A /* ErrorHandler.swift in Sources */,
 				BC99CC2828268EF500AEA12A /* Extensions.swift in Sources */,
 				BC99CC082825A31000AEA12A /* HTTPStatusCode.swift in Sources */,
+				BC99CC382826997700AEA12A /* FlickerSearchViewModel.swift in Sources */,
+				BC99CC3428268FD200AEA12A /* ImageSearchService.swift in Sources */,
+				BC99CC3028268FD200AEA12A /* Constant.swift in Sources */,
 				BCBA49E62825937D00D3A2E9 /* AppDelegate.swift in Sources */,
 				BCBA49E82825937D00D3A2E9 /* SceneDelegate.swift in Sources */,
 				BC99CC2028268D7C00AEA12A /* NetworkLogger.swift in Sources */,
+				BC99CC3228268FD200AEA12A /* FlickerSearchResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,13 +382,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC99CC062825A2CA00AEA12A /* ErrorHandler.swift in Sources */,
+				BC99CC3328268FD200AEA12A /* FlickerSearchResult.swift in Sources */,
 				BC99CC112825A7FD00AEA12A /* NetworkManager.swift in Sources */,
 				BCBA4A1D2825985B00D3A2E9 /* NetworkBody.swift in Sources */,
 				BCBA4A1A2825977200D3A2E9 /* NetworkRequest.swift in Sources */,
 				BC99CC0C2825A4BE00AEA12A /* NetworkResponse.swift in Sources */,
 				BC99CC2928268EF500AEA12A /* Extensions.swift in Sources */,
+				BC99CC392826997700AEA12A /* FlickerSearchViewModel.swift in Sources */,
 				BCBA4A24282599F500D3A2E9 /* NetworkEnvironment.swift in Sources */,
 				BC99CC2128268D7C00AEA12A /* NetworkLogger.swift in Sources */,
+				BC99CC3128268FD200AEA12A /* Constant.swift in Sources */,
+				BC99CC3528268FD200AEA12A /* ImageSearchService.swift in Sources */,
 				BC99CC092825A31000AEA12A /* HTTPStatusCode.swift in Sources */,
 				BCBA49FD2825937F00D3A2E9 /* FlickerImageSearchTests.swift in Sources */,
 			);

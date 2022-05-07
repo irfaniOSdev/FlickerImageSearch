@@ -8,15 +8,18 @@
 import UIKit
 
 class NetworkBody {
-
+    
+    // MARK: - Attributes
     private let encoding: EncodingType
     private let parameters: Parameters
     
+    // MARK: - Initializers
     init(encoding: EncodingType, parameters: Parameters) {
         self.encoding = encoding
         self.parameters = parameters
     }
     
+    // MARK: - Functions
     func getData()-> Data? {
         guard let parameters = parameters else {
             return nil
