@@ -32,5 +32,61 @@ class FlickerImageSearchTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testFlickerSearchWithValidText() {
+        
+        let expct = expectation(description: "Should return non empty response")
+        let service = ImageSearchService()
+        service.text = "cat"
+        service.page = 1
+        service.executeRequest { result, _ in
+            switch result {
+            case .success(let model):
+                if model.photos !=  nil {
+                    XCTAssert(true, "Success")
+                    expct.fulfill()
+                }else {
+                    XCTFail("No results")
+                }
+            case .failure(let error):
+                XCTFail(error.codeError().description ?? "")
+            }
+        }
+        
+        waitForExpectations(timeout: 10) { (error) in
+            if let error = error {
+                XCTFail("Error: \(error.localizedDescription)")
+            }
+        }
+    }
+   
+    func testFlickerSearchWithInvalidText() {
+        
+        let expct = expectation(description: "Returns error message or empty response")
+        
+        let service = ImageSearchService()
+        service.text = ""
+        service.page = 1
+        service.executeRequest { result, _ in
+            switch result {
+            case .success(let model):
+                if model.photos !=  nil {
+                    XCTFail(model.stat ?? "")
+                }else {
+                    XCTAssert(true, "Success")
+                    expct.fulfill()
+                }
+            case .failure(let error):
+                XCTAssert(true, error.localizedDescription)
+                expct.fulfill()
+            }
+        }
+        
+        waitForExpectations(timeout: 10) { (error) in
+            if let error = error {
+                XCTFail("Error: \(error.localizedDescription)")
+            }
+        }
+    }
 
 }
