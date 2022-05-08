@@ -9,6 +9,25 @@
 /* Begin PBXBuildFile section */
 		2397EF046820CCE0B159701D /* Pods_FlickerImageSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7E81F883D987DD93682D5E /* Pods_FlickerImageSearch.framework */; };
 		B820AEEE0176507D5896D454 /* Pods_FlickerImageSearch_FlickerImageSearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1BE118B363003484B5D74C /* Pods_FlickerImageSearch_FlickerImageSearchUITests.framework */; };
+		BC96EE08282705D20066E511 /* FlickerImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96EE06282705D20066E511 /* FlickerImageCollectionViewCell.swift */; };
+		BC96EE09282705D20066E511 /* FlickerImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96EE06282705D20066E511 /* FlickerImageCollectionViewCell.swift */; };
+		BC96EE0B282705D20066E511 /* FlickerImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC96EE07282705D20066E511 /* FlickerImageCollectionViewCell.xib */; };
+		BC96EE0C282705D20066E511 /* FlickerImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC96EE07282705D20066E511 /* FlickerImageCollectionViewCell.xib */; };
+		BC96EE0D282705D20066E511 /* FlickerImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC96EE07282705D20066E511 /* FlickerImageCollectionViewCell.xib */; };
+		BC96EE0F28270BAB0066E511 /* FlickerImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96EE0E28270BAB0066E511 /* FlickerImageModel.swift */; };
+		BC96EE122827173C0066E511 /* FlickerSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA49E92825937D00D3A2E9 /* FlickerSearchViewController.swift */; };
+		BC96EE1528271E6E0066E511 /* RecentSearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96EE1328271E6E0066E511 /* RecentSearchCollectionViewCell.swift */; };
+		BC96EE1628271E6E0066E511 /* RecentSearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96EE1328271E6E0066E511 /* RecentSearchCollectionViewCell.swift */; };
+		BC96EE1728271E6E0066E511 /* RecentSearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96EE1328271E6E0066E511 /* RecentSearchCollectionViewCell.swift */; };
+		BC96EE1828271E6E0066E511 /* RecentSearchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC96EE1428271E6E0066E511 /* RecentSearchCollectionViewCell.xib */; };
+		BC96EE1928271E6E0066E511 /* RecentSearchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC96EE1428271E6E0066E511 /* RecentSearchCollectionViewCell.xib */; };
+		BC96EE1A28271E6E0066E511 /* RecentSearchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC96EE1428271E6E0066E511 /* RecentSearchCollectionViewCell.xib */; };
+		BC96EE1E2827CCF50066E511 /* FlickerHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96EE1C2827CCF50066E511 /* FlickerHeaderCollectionReusableView.swift */; };
+		BC96EE1F2827CCF50066E511 /* FlickerHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96EE1C2827CCF50066E511 /* FlickerHeaderCollectionReusableView.swift */; };
+		BC96EE212827CCF50066E511 /* FlickerHeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC96EE1D2827CCF50066E511 /* FlickerHeaderCollectionReusableView.xib */; };
+		BC96EE222827CCF50066E511 /* FlickerHeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC96EE1D2827CCF50066E511 /* FlickerHeaderCollectionReusableView.xib */; };
+		BC96EE242827E9620066E511 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC2B28268FD200AEA12A /* Constant.swift */; };
+		BC96EE252827E9FD0066E511 /* FlickerImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96EE0E28270BAB0066E511 /* FlickerImageModel.swift */; };
 		BC99CC052825A2C800AEA12A /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC042825A2C800AEA12A /* ErrorHandler.swift */; };
 		BC99CC062825A2CA00AEA12A /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC042825A2C800AEA12A /* ErrorHandler.swift */; };
 		BC99CC082825A31000AEA12A /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC072825A31000AEA12A /* HTTPStatusCode.swift */; };
@@ -21,7 +40,6 @@
 		BC99CC2828268EF500AEA12A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC2728268EF500AEA12A /* Extensions.swift */; };
 		BC99CC2928268EF500AEA12A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC2728268EF500AEA12A /* Extensions.swift */; };
 		BC99CC3028268FD200AEA12A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC2B28268FD200AEA12A /* Constant.swift */; };
-		BC99CC3128268FD200AEA12A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC2B28268FD200AEA12A /* Constant.swift */; };
 		BC99CC3228268FD200AEA12A /* FlickerSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC2D28268FD200AEA12A /* FlickerSearchResult.swift */; };
 		BC99CC3328268FD200AEA12A /* FlickerSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC2D28268FD200AEA12A /* FlickerSearchResult.swift */; };
 		BC99CC3428268FD200AEA12A /* ImageSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC2F28268FD200AEA12A /* ImageSearchService.swift */; };
@@ -30,7 +48,7 @@
 		BC99CC392826997700AEA12A /* FlickerSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99CC372826997700AEA12A /* FlickerSearchViewModel.swift */; };
 		BCBA49E62825937D00D3A2E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA49E52825937D00D3A2E9 /* AppDelegate.swift */; };
 		BCBA49E82825937D00D3A2E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA49E72825937D00D3A2E9 /* SceneDelegate.swift */; };
-		BCBA49EA2825937D00D3A2E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA49E92825937D00D3A2E9 /* ViewController.swift */; };
+		BCBA49EA2825937D00D3A2E9 /* FlickerSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA49E92825937D00D3A2E9 /* FlickerSearchViewController.swift */; };
 		BCBA49ED2825937D00D3A2E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCBA49EB2825937D00D3A2E9 /* Main.storyboard */; };
 		BCBA49EF2825937F00D3A2E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCBA49EE2825937F00D3A2E9 /* Assets.xcassets */; };
 		BCBA49F22825937F00D3A2E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCBA49F02825937F00D3A2E9 /* LaunchScreen.storyboard */; };
@@ -71,6 +89,13 @@
 		71398656FC7DABED60E7687E /* Pods-FlickerImageSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickerImageSearch.release.xcconfig"; path = "Target Support Files/Pods-FlickerImageSearch/Pods-FlickerImageSearch.release.xcconfig"; sourceTree = "<group>"; };
 		9D1BE118B363003484B5D74C /* Pods_FlickerImageSearch_FlickerImageSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlickerImageSearch_FlickerImageSearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE3F55129B2C20B21EB5430 /* Pods-FlickerImageSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickerImageSearchTests.release.xcconfig"; path = "Target Support Files/Pods-FlickerImageSearchTests/Pods-FlickerImageSearchTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC96EE06282705D20066E511 /* FlickerImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		BC96EE07282705D20066E511 /* FlickerImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlickerImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		BC96EE0E28270BAB0066E511 /* FlickerImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerImageModel.swift; sourceTree = "<group>"; };
+		BC96EE1328271E6E0066E511 /* RecentSearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentSearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		BC96EE1428271E6E0066E511 /* RecentSearchCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecentSearchCollectionViewCell.xib; sourceTree = "<group>"; };
+		BC96EE1C2827CCF50066E511 /* FlickerHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		BC96EE1D2827CCF50066E511 /* FlickerHeaderCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlickerHeaderCollectionReusableView.xib; sourceTree = "<group>"; };
 		BC99CC042825A2C800AEA12A /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 		BC99CC072825A31000AEA12A /* HTTPStatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
 		BC99CC0A2825A4BD00AEA12A /* NetworkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
@@ -83,7 +108,7 @@
 		BCBA49E22825937D00D3A2E9 /* FlickerImageSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickerImageSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCBA49E52825937D00D3A2E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCBA49E72825937D00D3A2E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BCBA49E92825937D00D3A2E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCBA49E92825937D00D3A2E9 /* FlickerSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerSearchViewController.swift; sourceTree = "<group>"; };
 		BCBA49EC2825937D00D3A2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCBA49EE2825937F00D3A2E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCBA49F12825937F00D3A2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -143,6 +168,26 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		BC96EE05282705B30066E511 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BC96EE06282705D20066E511 /* FlickerImageCollectionViewCell.swift */,
+				BC96EE07282705D20066E511 /* FlickerImageCollectionViewCell.xib */,
+				BC96EE1328271E6E0066E511 /* RecentSearchCollectionViewCell.swift */,
+				BC96EE1428271E6E0066E511 /* RecentSearchCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BC96EE1B2827CCB40066E511 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC96EE1C2827CCF50066E511 /* FlickerHeaderCollectionReusableView.swift */,
+				BC96EE1D2827CCF50066E511 /* FlickerHeaderCollectionReusableView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		BC99CC2628268EF500AEA12A /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,8 +199,10 @@
 		BC99CC2A28268FD200AEA12A /* FlickerSearch */ = {
 			isa = PBXGroup;
 			children = (
+				BCBA49E92825937D00D3A2E9 /* FlickerSearchViewController.swift */,
+				BC96EE1B2827CCB40066E511 /* View */,
+				BC96EE05282705B30066E511 /* Cell */,
 				BC99CC362826996000AEA12A /* ViewModel */,
-				BC99CC2B28268FD200AEA12A /* Constant.swift */,
 				BC99CC2C28268FD200AEA12A /* Model */,
 				BC99CC2E28268FD200AEA12A /* Service */,
 			);
@@ -166,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				BC99CC2D28268FD200AEA12A /* FlickerSearchResult.swift */,
+				BC96EE0E28270BAB0066E511 /* FlickerImageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -211,12 +259,12 @@
 		BCBA49E42825937D00D3A2E9 /* FlickerImageSearch */ = {
 			isa = PBXGroup;
 			children = (
-				BC99CC2A28268FD200AEA12A /* FlickerSearch */,
-				BC99CC2628268EF500AEA12A /* Utilities */,
+				BC99CC2B28268FD200AEA12A /* Constant.swift */,
 				BCBA4A152825952500D3A2E9 /* NetworkManager */,
+				BC99CC2628268EF500AEA12A /* Utilities */,
+				BC99CC2A28268FD200AEA12A /* FlickerSearch */,
 				BCBA49E52825937D00D3A2E9 /* AppDelegate.swift */,
 				BCBA49E72825937D00D3A2E9 /* SceneDelegate.swift */,
-				BCBA49E92825937D00D3A2E9 /* ViewController.swift */,
 				BCBA49EB2825937D00D3A2E9 /* Main.storyboard */,
 				BCBA49EE2825937F00D3A2E9 /* Assets.xcassets */,
 				BCBA49F02825937F00D3A2E9 /* LaunchScreen.storyboard */,
@@ -377,8 +425,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCBA49F22825937F00D3A2E9 /* LaunchScreen.storyboard in Resources */,
+				BC96EE0B282705D20066E511 /* FlickerImageCollectionViewCell.xib in Resources */,
+				BC96EE1828271E6E0066E511 /* RecentSearchCollectionViewCell.xib in Resources */,
 				BCBA49EF2825937F00D3A2E9 /* Assets.xcassets in Resources */,
 				BCBA49ED2825937D00D3A2E9 /* Main.storyboard in Resources */,
+				BC96EE212827CCF50066E511 /* FlickerHeaderCollectionReusableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +437,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC96EE0C282705D20066E511 /* FlickerImageCollectionViewCell.xib in Resources */,
+				BC96EE1928271E6E0066E511 /* RecentSearchCollectionViewCell.xib in Resources */,
+				BC96EE222827CCF50066E511 /* FlickerHeaderCollectionReusableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +447,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC96EE0D282705D20066E511 /* FlickerImageCollectionViewCell.xib in Resources */,
+				BC96EE1A28271E6E0066E511 /* RecentSearchCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,12 +562,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC96EE0F28270BAB0066E511 /* FlickerImageModel.swift in Sources */,
 				BCBA4A1C2825985B00D3A2E9 /* NetworkBody.swift in Sources */,
 				BCBA4A172825953B00D3A2E9 /* NetworkManager.swift in Sources */,
+				BC96EE1E2827CCF50066E511 /* FlickerHeaderCollectionReusableView.swift in Sources */,
 				BCBA4A23282599F500D3A2E9 /* NetworkEnvironment.swift in Sources */,
+				BC96EE1528271E6E0066E511 /* RecentSearchCollectionViewCell.swift in Sources */,
 				BCBA4A192825977200D3A2E9 /* NetworkRequest.swift in Sources */,
 				BC99CC0B2825A4BE00AEA12A /* NetworkResponse.swift in Sources */,
-				BCBA49EA2825937D00D3A2E9 /* ViewController.swift in Sources */,
+				BCBA49EA2825937D00D3A2E9 /* FlickerSearchViewController.swift in Sources */,
 				BC99CC052825A2C800AEA12A /* ErrorHandler.swift in Sources */,
 				BC99CC2828268EF500AEA12A /* Extensions.swift in Sources */,
 				BC99CC082825A31000AEA12A /* HTTPStatusCode.swift in Sources */,
@@ -520,6 +579,7 @@
 				BC99CC3028268FD200AEA12A /* Constant.swift in Sources */,
 				BCBA49E62825937D00D3A2E9 /* AppDelegate.swift in Sources */,
 				BCBA49E82825937D00D3A2E9 /* SceneDelegate.swift in Sources */,
+				BC96EE08282705D20066E511 /* FlickerImageCollectionViewCell.swift in Sources */,
 				BC99CC2028268D7C00AEA12A /* NetworkLogger.swift in Sources */,
 				BC99CC3228268FD200AEA12A /* FlickerSearchResult.swift in Sources */,
 			);
@@ -533,14 +593,19 @@
 				BC99CC3328268FD200AEA12A /* FlickerSearchResult.swift in Sources */,
 				BC99CC112825A7FD00AEA12A /* NetworkManager.swift in Sources */,
 				BCBA4A1D2825985B00D3A2E9 /* NetworkBody.swift in Sources */,
+				BC96EE09282705D20066E511 /* FlickerImageCollectionViewCell.swift in Sources */,
+				BC96EE122827173C0066E511 /* FlickerSearchViewController.swift in Sources */,
 				BCBA4A1A2825977200D3A2E9 /* NetworkRequest.swift in Sources */,
+				BC96EE242827E9620066E511 /* Constant.swift in Sources */,
 				BC99CC0C2825A4BE00AEA12A /* NetworkResponse.swift in Sources */,
 				BC99CC2928268EF500AEA12A /* Extensions.swift in Sources */,
 				BC99CC392826997700AEA12A /* FlickerSearchViewModel.swift in Sources */,
 				BCBA4A24282599F500D3A2E9 /* NetworkEnvironment.swift in Sources */,
 				BC99CC2128268D7C00AEA12A /* NetworkLogger.swift in Sources */,
-				BC99CC3128268FD200AEA12A /* Constant.swift in Sources */,
+				BC96EE1F2827CCF50066E511 /* FlickerHeaderCollectionReusableView.swift in Sources */,
 				BC99CC3528268FD200AEA12A /* ImageSearchService.swift in Sources */,
+				BC96EE1628271E6E0066E511 /* RecentSearchCollectionViewCell.swift in Sources */,
+				BC96EE252827E9FD0066E511 /* FlickerImageModel.swift in Sources */,
 				BC99CC092825A31000AEA12A /* HTTPStatusCode.swift in Sources */,
 				BCBA49FD2825937F00D3A2E9 /* FlickerImageSearchTests.swift in Sources */,
 			);
@@ -550,6 +615,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC96EE1728271E6E0066E511 /* RecentSearchCollectionViewCell.swift in Sources */,
 				BCBA4A072825937F00D3A2E9 /* FlickerImageSearchUITests.swift in Sources */,
 				BCBA4A092825937F00D3A2E9 /* FlickerImageSearchUITestsLaunchTests.swift in Sources */,
 			);
@@ -720,7 +786,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -751,7 +817,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;

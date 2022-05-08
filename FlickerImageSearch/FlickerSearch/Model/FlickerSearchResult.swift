@@ -14,11 +14,11 @@ struct FlickerSearchResult: Codable {
 }
 
 struct Photos: Codable {
-    let page: Int
-    let pages: Int
-    let perpage: Int
-    let photo: [FlickrPhoto]
-    let total: Int
+    let page: Int?
+    let pages: Int?
+    let perpage: Int?
+    let photo: [FlickrPhoto]?
+    let total: Int?
 }
 
 struct FlickrPhoto: Codable {
@@ -26,12 +26,12 @@ struct FlickrPhoto: Codable {
     let farm : Int
     let id : String
     
-    let isfamily : Int
-    let isfriend : Int
-    let ispublic : Int
+    let isfamily : Int?
+    let isfriend : Int?
+    let ispublic : Int?
     
-    let owner: String
+    let owner: String?
     let secret : String
     let server : String
-    let title: String
+    let title: String?
 }
