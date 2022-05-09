@@ -10,12 +10,16 @@ import XCTest
 
 class FlickerImageSearchTests: XCTestCase {
 
+    var sut : ImageSearchService!
+
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        sut = ImageSearchService()
     }
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+        sut = nil
     }
 
     func testExample() throws {
@@ -33,13 +37,21 @@ class FlickerImageSearchTests: XCTestCase {
         }
     }
     
+    // test if requested URL is matching with specific search text
+    func testSearchRequestURL() {
+        let text = "car"
+        sut.text = text
+        sut.page = 1
+        let correctURLString = "https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=a4f28588b57387edc18282228da39744&text=\(text)&per_page=50&page=1&format=json&nojsoncallback=1"
+        XCTAssertEqual(sut.absoluteURL, correctURLString)
+    }
+    
     func testFlickerSearchWithValidText() {
         
         let expct = expectation(description: "Should return non empty response")
-        let service = ImageSearchService()
-        service.text = "cat"
-        service.page = 1
-        service.executeRequest { result, _ in
+        sut.text = "cat"
+        sut.page = 1
+        sut.executeRequest { result, _ in
             switch result {
             case .success(let model):
                 if model.photos !=  nil {
@@ -49,7 +61,7 @@ class FlickerImageSearchTests: XCTestCase {
                     XCTFail("No results")
                 }
             case .failure(let error):
-                XCTFail(error.codeError().description ?? "")
+                XCTFail(error.codeError().description ?? Constant.StringConstants.generalErrorMessage)
             }
         }
         
@@ -59,19 +71,18 @@ class FlickerImageSearchTests: XCTestCase {
             }
         }
     }
-   
+    
     func testFlickerSearchWithInvalidText() {
         
         let expct = expectation(description: "Returns error message or empty response")
         
-        let service = ImageSearchService()
-        service.text = ""
-        service.page = 1
-        service.executeRequest { result, _ in
+        sut.text = ""
+        sut.page = 1
+        sut.executeRequest { result, _ in
             switch result {
             case .success(let model):
                 if model.photos !=  nil {
-                    XCTFail(model.stat ?? "")
+                    XCTFail(model.stat ?? Constant.StringConstants.generalErrorMessage)
                 }else {
                     XCTAssert(true, "Success")
                     expct.fulfill()

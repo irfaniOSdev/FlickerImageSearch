@@ -19,8 +19,13 @@ protocol ExecuteRequest {
 class NetworkManager: NetworkManagerProtocol {
     let session = URLSession.shared
     func executeRequest<T: Decodable>(_ requestProtocol: NetworkRequestProtocol, completion: @escaping (Result<T, ErrorHandler>, URLResponse?) -> Void) {
+        
+        if !ConnectionManager.shared.isConnectedToNetwork() {
+            NetworkResponse().responseErrorHandling(code: HTTPStatusCode.noConnection, error: nil, completion: completion)
+            return
+        }
+        
         let request = NetworkRequest(request: requestProtocol)
-
         do {
             try request.buildRequest(onComplete: { (request) in
                 switch request {

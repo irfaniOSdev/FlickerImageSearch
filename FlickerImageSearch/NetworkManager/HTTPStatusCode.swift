@@ -21,9 +21,9 @@ enum HTTPStatusCode: Int {
     public var description: String {
         switch self {
         case .internalServerError:
-            return ""
+            return Constant.StringConstants.somethingWentWrong
         case .noConnection:
-            return ""
+            return Constant.StringConstants.internetCheck
         default:
             return "Error with code: \(self.rawValue)"
         }
