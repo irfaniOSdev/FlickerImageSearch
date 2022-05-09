@@ -1,20 +1,24 @@
 PODS:
   - Kingfisher (7.2.1)
   - ReachabilitySwift (5.0.0)
+  - SwiftSpinner (2.2.0)
 
 DEPENDENCIES:
   - Kingfisher (~> 7.0)
   - ReachabilitySwift
+  - SwiftSpinner
 
 SPEC REPOS:
   trunk:
     - Kingfisher
     - ReachabilitySwift
+    - SwiftSpinner
 
 SPEC CHECKSUMS:
   Kingfisher: 7c084bebf7d548c623ad41bcf765fb200efed369
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SwiftSpinner: f9b59477fe107427f2b5b835497d6636fa167ede
 
-PODFILE CHECKSUM: a6de08fa3b0032331a05d4b17971d092bddbcc5c
+PODFILE CHECKSUM: 972fe5775221d8347017f23b6a495bfbd094f2a9
 
 COCOAPODS: 1.11.2

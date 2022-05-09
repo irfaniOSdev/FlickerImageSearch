@@ -7,6 +7,7 @@ target 'FlickerImageSearch' do
 
   pod 'Kingfisher', '~> 7.0'
   pod 'ReachabilitySwift'
+  pod "SwiftSpinner"
 
   target 'FlickerImageSearchTests' do
     inherit! :search_paths

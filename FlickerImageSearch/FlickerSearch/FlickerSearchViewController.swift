@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftSpinner
 
 class FlickerSearchViewController: UIViewController {
 
@@ -32,6 +33,7 @@ class FlickerSearchViewController: UIViewController {
     // MARK: - Set up
     func registerListners(){
         viewModel.completion = { [weak self] in
+            SwiftSpinner.hide()
             // reload data here
             self?.collectionView.reloadData()
         }
@@ -46,6 +48,7 @@ class FlickerSearchViewController: UIViewController {
             self.searchBarController.searchBar.text = recentSearch
             self.searchBarController.searchBar.resignFirstResponder()
             self.searchBarController.searchBar.showsCancelButton = true
+            SwiftSpinner.show("Searching \(recentSearch)")
             self.viewModel.searchImageRequest(text: recentSearch, page: 1)
         }
     }
@@ -55,6 +58,7 @@ class FlickerSearchViewController: UIViewController {
         self.navigationItem.searchController = searchBarController
         searchBarController.searchBar.placeholder = Constant.StringConstants.searchBarPlaceHolder
         searchBarController.searchBar.delegate = self
+        navigationItem.hidesSearchBarWhenScrolling = false
     }
     
     func setupCollectionView(){
@@ -79,6 +83,7 @@ extension FlickerSearchViewController: UISearchBarDelegate {
             return
         }
         collectionView.reloadData()
+        SwiftSpinner.show("Searching \(text)")
         viewModel.searchImageRequest(text: text, page: 1)
         searchBarController.searchBar.resignFirstResponder()
     }
