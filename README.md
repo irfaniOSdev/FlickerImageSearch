@@ -52,6 +52,7 @@ It is conforming all the delegate and datasource methods of collectionview with 
 It is preparing request and intimating NetworkManager for search request.
 
 # Unit Tests
+Project has used XCTest framework and not any third party framework.
 *FlickerImageSearchTests* and *FlickerImageDataSourceTests* files have methods that are unit testing components of the app e.g API Service calls and collectionview datasource methods.
 
 # UI Tests
