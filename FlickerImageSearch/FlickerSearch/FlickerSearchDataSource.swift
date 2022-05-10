@@ -17,6 +17,10 @@ class FlickerSearchDataSource: NSObject {
 
 extension FlickerSearchDataSource: UICollectionViewDataSource {
     
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         guard let viewModel = viewModel else { return 0 }
         if viewModel.isSearchBarEmptyAndInactive() { return viewModel.getRecentSearches().count }
